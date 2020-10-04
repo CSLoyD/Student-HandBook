@@ -11,6 +11,7 @@ import {
   SafeAreaView,
   StyleSheet,
   ScrollView,
+  Button,
   View,
   Text,
   StatusBar,
@@ -40,12 +41,18 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Test Run</Text>
+              <Text style={styles.sectionTitle}>Nikko Code Test</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> tumalon sa
                 tulay screen and then come back to see your edits.
               </Text>
             </View>
+            <Button
+              onPress="test"
+              title="Learn More"
+              color="#841584"
+              accessibilityLabel="Learn more about this purple button"
+            />
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See your face</Text>
               <Text style={styles.sectionDescription}>
