@@ -40,6 +40,7 @@ const App = () => (
     </View>
     <Separator />
     <View>
+<<<<<<< HEAD
       <Text style={styles.title}>
         This layout strategy lets the title define the width of the button.
       </Text>
@@ -53,6 +54,9 @@ const App = () => (
           onPress={() => Alert.alert('Right button pressed')}
         />
       </View>
+=======
+      <Text>bogo ko</Text>
+>>>>>>> 2ba573aa0f9bca2324198f74b9d721ee25197263
     </View>
   </SafeAreaView>
 );
